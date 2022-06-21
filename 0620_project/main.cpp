@@ -6,12 +6,32 @@
 //
 
 #include <iostream>
+#include <cstdio>
 using namespace std;
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    cout << "git test";
-    cout << "git test2";
+class Base{
+public:
+    void Print() {
+        cout << "From Base!!!" << endl;
+    }
+};
+
+class Derived : public Base {
+public:
+    void Print(){
+        cout << "From Derived!!!" << endl;
+    }
+    void Print2(){
+        cout << "Derived2" << endl;
+    }
+};
+
+int main() {
+    
+    Base *b = new Derived();
+    b->Print();
+    
+    delete b;
+    
     return 0;
 }

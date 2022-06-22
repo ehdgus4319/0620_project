@@ -74,14 +74,12 @@ int main() {
     cout << endl << endl;
     
     Weapon *currentWeapon;
-    currentWeapon = &mySword;
+    currentWeapon = new Sword(10);
     
     currentWeapon->Use();
     
-    currentWeapon = &myMagic;
-    currentWeapon->Use();
-    
-   
+
+    delete currentWeapon;
     
     return 0;
 }

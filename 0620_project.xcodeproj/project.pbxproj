@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D3153D6B28609293009E0C0A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D3153D6A28609293009E0C0A /* main.cpp */; };
+		D358E33228632C3B00F3BC1E /* 0622_OpenCV_test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D358E33028632C3B00F3BC1E /* 0622_OpenCV_test.cpp */; };
+		D358E3352864B5B400F3BC1E /* Animal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D358E3332864B5B400F3BC1E /* Animal.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		D3153D6728609293009E0C0A /* 0620_project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 0620_project; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3153D6A28609293009E0C0A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D358E33028632C3B00F3BC1E /* 0622_OpenCV_test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0622_OpenCV_test.cpp; sourceTree = "<group>"; };
+		D358E33128632C3B00F3BC1E /* 0622_OpenCV_test.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = 0622_OpenCV_test.hpp; sourceTree = "<group>"; };
+		D358E3332864B5B400F3BC1E /* Animal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Animal.cpp; sourceTree = "<group>"; };
+		D358E3342864B5B400F3BC1E /* Animal.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Animal.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +47,10 @@
 		D3153D5E28609293009E0C0A = {
 			isa = PBXGroup;
 			children = (
+				D358E33028632C3B00F3BC1E /* 0622_OpenCV_test.cpp */,
+				D358E3332864B5B400F3BC1E /* Animal.cpp */,
+				D358E3342864B5B400F3BC1E /* Animal.hpp */,
+				D358E33128632C3B00F3BC1E /* 0622_OpenCV_test.hpp */,
 				D3153D6928609293009E0C0A /* 0620_project */,
 				D3153D6828609293009E0C0A /* Products */,
 			);
@@ -119,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D358E33228632C3B00F3BC1E /* 0622_OpenCV_test.cpp in Sources */,
 				D3153D6B28609293009E0C0A /* main.cpp in Sources */,
+				D358E3352864B5B400F3BC1E /* Animal.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

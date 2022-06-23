@@ -10,6 +10,7 @@
 		D3153D6B28609293009E0C0A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D3153D6A28609293009E0C0A /* main.cpp */; };
 		D358E33228632C3B00F3BC1E /* 0622_OpenCV_test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D358E33028632C3B00F3BC1E /* 0622_OpenCV_test.cpp */; };
 		D358E3352864B5B400F3BC1E /* Animal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D358E3332864B5B400F3BC1E /* Animal.cpp */; };
+		D358E3382864B68400F3BC1E /* Animal_hotel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D358E3362864B68400F3BC1E /* Animal_hotel.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		D358E33128632C3B00F3BC1E /* 0622_OpenCV_test.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = 0622_OpenCV_test.hpp; sourceTree = "<group>"; };
 		D358E3332864B5B400F3BC1E /* Animal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Animal.cpp; sourceTree = "<group>"; };
 		D358E3342864B5B400F3BC1E /* Animal.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Animal.hpp; sourceTree = "<group>"; };
+		D358E3362864B68400F3BC1E /* Animal_hotel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Animal_hotel.cpp; sourceTree = "<group>"; };
+		D358E3372864B68400F3BC1E /* Animal_hotel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Animal_hotel.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +53,8 @@
 				D358E33028632C3B00F3BC1E /* 0622_OpenCV_test.cpp */,
 				D358E3332864B5B400F3BC1E /* Animal.cpp */,
 				D358E3342864B5B400F3BC1E /* Animal.hpp */,
+				D358E3362864B68400F3BC1E /* Animal_hotel.cpp */,
+				D358E3372864B68400F3BC1E /* Animal_hotel.hpp */,
 				D358E33128632C3B00F3BC1E /* 0622_OpenCV_test.hpp */,
 				D3153D6928609293009E0C0A /* 0620_project */,
 				D3153D6828609293009E0C0A /* Products */,
@@ -131,6 +136,7 @@
 			files = (
 				D358E33228632C3B00F3BC1E /* 0622_OpenCV_test.cpp in Sources */,
 				D3153D6B28609293009E0C0A /* main.cpp in Sources */,
+				D358E3382864B68400F3BC1E /* Animal_hotel.cpp in Sources */,
 				D358E3352864B5B400F3BC1E /* Animal.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

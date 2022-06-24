@@ -22,7 +22,6 @@ class Animal_hotel
 private:
     Animal* animal_num[8];
     int room_number;
-    bool used[8];
 public:
     Animal_hotel();
     int Show_menu();
